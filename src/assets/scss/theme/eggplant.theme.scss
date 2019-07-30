@@ -1,0 +1,19 @@
+// Parts of a theme
+// $theme-color-primary
+// $theme-color-secondary
+// $theme-color-tertiary
+// $theme-text
+// $theme-button-bg
+// $theme-button-hover
+// $theme-button-active
+// $theme-link
+// $theme-font-body
+// $theme-font-header
+
+$theme-color-primary: #2E294E;
+$theme-color-secondary: #1B998B;
+$theme-color-tertiary: #C5D86D;
+$theme-text: #333;
+$theme-button-bg: $theme-color-primary;
+$theme-button-hover: darken($theme-color-primary, 5%);
+$theme-button-active: lighten($theme-color-primary, 10%);

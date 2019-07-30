@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { hot } from 'react-hot-loader'
 import { Switch, Route } from 'react-router-dom'
 
-// Routes (in /src/pages)
+// Routes (files in /src/pages/)
 import Home from './pages/Home'
 
 // Routes class definition
