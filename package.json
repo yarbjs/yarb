@@ -7,7 +7,8 @@
   "license": "MIT",
   "scripts": {
     "start": "webpack-dev-server --mode development",
-    "build": "webpack"
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production"
   },
   "dependencies": {
     "@babel/cli": "7.1.0",
@@ -15,7 +16,7 @@
     "@babel/plugin-proposal-class-properties": "^7.5.5",
     "@babel/preset-env": "7.1.0",
     "@babel/preset-react": "7.0.0",
-    "babel-loader": "8.0.2",
+    "babel-loader": "^8.0.6",
     "create-react-component-folder": "^0.1.30",
     "css-loader": "1.0.0",
     "file-loader": "^4.1.0",
