@@ -6,7 +6,8 @@
   "author": "Nick M. Jones/@nickmjones",
   "license": "MIT",
   "scripts": {
-    "start": "parcel public/index.html --open"
+    "start": "parcel public/index.html --open",
+    "build": "parcel production src/index.js"
   },
   "dependencies": {
     "node-sass": "^4.12.0",
