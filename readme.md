@@ -6,6 +6,7 @@ YARB ships with all the basic tooling you need to start playing with React and R
 
 
 ## Installation/Use
+You'll need [Yarn](https://github.com/yarnpkg/yarn) and [Node](https://github.com/nodejs/node) to build and develop with YARB
 
 - Clone or fork this repo
 - `cd yarb` (or whatever you renamed it to)
