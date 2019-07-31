@@ -1,6 +1,7 @@
 # YARB - Yet Another React Boilerplate 🎉
 
 [![](https://img.shields.io/badge/Protected_by-Hound-a873d1.svg)](https://houndci.com)
+[![](https://img.shields.io/github/issues/nickmjones/yarb)](#)
 
 Probably one of the biggest challenges in learning React is setting up the right tooling. There are lots of ways to do this like [create-react-app](https://github.com/facebook/create-react-app) and [Glitch](www.glitch.com). But none of them were quite right for me. I want flexibility and control, sure, but coming from Rails I also appreciate opinions and conventions. Enter YARB! (🎶Metallica guitars play🤘)
 
