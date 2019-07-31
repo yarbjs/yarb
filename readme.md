@@ -27,8 +27,8 @@ you're really running
 under the hood. This tells Parcel to start, with `public/index.html` as its input. This also transpiles all your SCSS and JSX files automagically, and runs the built-in Parcel webserver at `http://localhost:1234`. Neat!
 
 ## Todo
--[x] YARB uses `HashRouter` due to some weirdness with `BrowserRouter`, which puts (as you might expect) hashes in your URLs. I'll fix this in a future release.
+- [x] YARB uses `HashRouter` due to some weirdness with `BrowserRouter`, which puts (as you might expect) hashes in your URLs. I'll fix this in a future release.
 
 ## See Also
-[Nick Jones](https://www.nickmjones.me) (I made this 👋)
-Learn more about [Parcel](https://parceljs.org)
+- [Nick Jones](https://www.nickmjones.me) (I made this 👋)
+- Learn more about [Parcel](https://parceljs.org)
