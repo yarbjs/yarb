@@ -18,10 +18,12 @@ YARB ships with all the basic tooling you need to start playing with React and R
 ## Installation/Use
 You'll need [Yarn](https://github.com/yarnpkg/yarn) and [Node](https://github.com/nodejs/node) to build and develop with YARB
 
-- Clone or fork this repo
-- `cd yarb` (or whatever you renamed it to)
-- `yarn install` (or `npm install`)
-- `yarn start`. This will kick off Parcel and a web server. It will reload your site automatically for you as you work 🙌
+```bash
+git clone git@github.com:nickmjones/yarb.git
+cd path/to/project
+yarn install
+yarn start
+```
 - Make cool things inside `/src`. There are some basic styles and routes included to give you a place to start.
 - `yarn build` makes a static site ready to deploy on your webserver of choice for the world to see
 
