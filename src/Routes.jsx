@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import { hot } from 'react-hot-loader'
 import { Switch, Route } from 'react-router-dom'
 
 // Routes (files in /src/views/)
@@ -19,4 +18,4 @@ class Routes extends Component {
 }
 
 // exports Routes class
-export default hot(module)(Routes)
+export default Routes
