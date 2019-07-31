@@ -1,7 +1,7 @@
 # YARB - Yet Another React Boilerplate 🎉
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/563451/62238724-90aeeb80-b3a1-11e9-9256-733adb2ee4dd.png">
+  <img src="https://user-images.githubusercontent.com/563451/62238724-90aeeb80-b3a1-11e9-9256-733adb2ee4dd.png" width="320px" height="320px">
 </p>
 
 [![](https://img.shields.io/badge/Protected_by-Hound-a873d1.svg)](https://houndci.com)
