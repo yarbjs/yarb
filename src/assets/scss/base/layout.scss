@@ -1,21 +1,12 @@
 // Root element
 .wrapper {
   padding: 2rem;
-
-  @include for-tablet-landscape-up {
-    padding: 8rem;
-  }
 }
 
 // Basic grid/row context
 .row {
   display: flex;
   flex-flow: column wrap;
-  border: 1px dotted purple;
-
-  @include for-tablet-landscape-up {
-    flex-flow: row wrap;
-  }
 }
 .row__element {
   flex: 1;
