@@ -4,6 +4,13 @@ Probably one of the biggest challenges in learning React is setting up the right
 
 YARB ships with all the basic tooling you need to start playing with React and React Router. It also includes application bundling courtesy of [Parcel](https://parceljs.org), a neat zero-configuration bundler. YARB also includes out of the box SCSS/SASS support (because SASS is incredibly useful and basically necessary, even if create-react-app disagrees).
 
+TL;DR YARB includes:
+- React, React Router
+- Parcel to bundle your app
+- SCSS/SASS support
+- Opinionated directory structure
+- [Create React Component Folder](https://www.npmjs.com/package/create-react-component-folder) support, to make component creation quick and easy
+
 
 ## Installation/Use
 You'll need [Yarn](https://github.com/yarnpkg/yarn) and [Node](https://github.com/nodejs/node) to build and develop with YARB
