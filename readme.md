@@ -14,3 +14,17 @@ You'll need [Yarn](https://github.com/yarnpkg/yarn) and [Node](https://github.co
 - `yarn start`. This will kick off Parcel and a web server. It will reload your site automatically for you as you work 🙌
 - Make cool things inside `/src`. There are some basic styles and routes included to give you a place to start.
 - `yarn build` makes a static site ready to deploy on your webserver of choice for the world to see
+
+## About Parcel
+Why not just use Webpack? Mostly because it's complicated. Getting Webpack working properly can be really touchy (even in v4, which is closer to 'zeroconf' than 3 was). I'm using Parcel because it's really, truly zero configuration. In YARB, when you run
+
+`yarn start`
+
+you're really running
+
+`parcel public/index.html --open`
+
+under the hood. This tells Parcel to start, with `public/index.html` as its input. This also transpiles all your SCSS and JSX files automagically, and runs the built-in Parcel webserver at `http://localhost:1234`. Neat!
+
+## Todo
+- YARB uses `HashRouter` due to some weirdness with `BrowserRouter`, which puts (as you might expect) hashes in your URLs. I'll fix this in a future release.
