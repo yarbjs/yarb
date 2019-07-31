@@ -2,9 +2,9 @@ import React, { Component } from 'react'
 import { hot } from 'react-hot-loader'
 import { Switch, Route } from 'react-router-dom'
 
-// Routes (files in /src/pages/)
-import Home from './pages/Home'
-import About from './pages/About'
+// Routes (files in /src/views/)
+import Home from './views/Home'
+import About from './views/About'
 
 // Routes class definition
 class Routes extends Component {
