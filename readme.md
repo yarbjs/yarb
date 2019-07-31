@@ -28,3 +28,7 @@ under the hood. This tells Parcel to start, with `public/index.html` as its inpu
 
 ## Todo
 - YARB uses `HashRouter` due to some weirdness with `BrowserRouter`, which puts (as you might expect) hashes in your URLs. I'll fix this in a future release.
+
+## See Also
+[Nick Jones](https://www.nickmjones.me) (I made this 👋)
+Learn more about [Parcel](https://parceljs.org)
