@@ -4,7 +4,8 @@ class Home extends React.Component {
   render() {
     return(
       <div>
-        Find me in src/pages/Home
+        <h1>Welcome to YARB!</h1>
+        <p>You can edit this view in <span className="code">src/views/Home.js</span></p>
       </div>
     )
   }

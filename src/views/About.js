@@ -4,7 +4,8 @@ class About extends React.Component {
   render() {
     return(
       <div>
-        Find me in src/pages/About
+        <h1>About my site</h1>
+        <p>You can edit this view in <span className="code">src/views/About.js</span></p>
       </div>
     )
   }
