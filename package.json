@@ -1,7 +1,7 @@
 {
-  "name": "workrelease",
-  "version": "1.2.0",
-  "description": "A portfolio of work for Nick Jones.",
+  "name": "YARB",
+  "version": "1.2.5",
+  "description": "YARB - Yet Another React Boilerplate",
   "main": "index.js",
   "author": "Nick M. Jones/@nickmjones",
   "license": "MIT",

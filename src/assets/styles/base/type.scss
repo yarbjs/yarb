@@ -1,11 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=fallback');
 
-@for $i from 1 through 6 {
-  h#{$i} {
-    font-size: $base-font-size + $heading-scale * (6 - $i);
-  }
-}
-
 h1, h2, h3, h4, h5, h6 {
   line-height: 1.2;
   margin-bottom: 1rem;
@@ -14,7 +8,4 @@ h1, h2, h3, h4, h5, h6 {
 p {
   font-size: $base-font-size;
   margin-bottom: 1rem;
-}
-p+p {
-  margin-top: 1rem;
 }
