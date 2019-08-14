@@ -1,5 +1,4 @@
 #!/bin/bash
-
 echo "Starting..."
 
 # Remove /dist if it exists
@@ -13,5 +12,5 @@ parcel build public/index.html
 echo "Build done. Starting deployment..."
 cd ./dist
 echo "Deploying..."
-now
+now --target production
 echo "Done."
