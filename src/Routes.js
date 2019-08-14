@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
 import { Switch, Route } from 'react-router-dom'
 
-// Routes (files in /src/views/)
+// Views (files in /src/views/)
 import Home from './views/Home'
-import About from './views/About'
+import NotFound from './views/NotFound'
 
 // Routes class definition
 class Routes extends Component {
@@ -11,7 +11,7 @@ class Routes extends Component {
     return(
       <Switch>
         <Route exact path="/" component={ Home } />
-        <Route exact path="/about" component={ About } />
+        <Route path="/" component={ NotFound } />
       </Switch>
     )
   }
