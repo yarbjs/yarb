@@ -30,6 +30,7 @@ yarn start
 ```
 - Make cool things inside `/src`. There are some basic styles and routes included to give you a place to start.
 - `yarn build` makes a static site ready to deploy on your webserver of choice for the world to see
+- `yarn deploy` will build your site and attempt to push it to [Netlify](https://www.netlify.com). Before you do that, you'll need a Netlify [account](https://app.netlify.com/signup)
 
 ## About Parcel
 Why not just use Webpack? Mostly because it's complicated. Getting Webpack working properly can be really touchy (even in v4, which is closer to 'zeroconf' than 3 was). I'm using Parcel because it's really, truly zero configuration. In YARB, when you run
@@ -38,12 +39,18 @@ Why not just use Webpack? Mostly because it's complicated. Getting Webpack worki
 
 you're really running
 
-`parcel public/index.html --open`
+`parcel public/index.html --open --no-cache`
 
 under the hood. This tells Parcel to start, with `public/index.html` as its input. This also bundles all your SCSS and JS/JSX files automagically, and runs the built-in Parcel webserver at `http://localhost:1234`. Neat!
 
 ## Todo
-???
+Take a look at the [project issues](https://github.com/yarbjs/yarb/issues).
+
+## Contribute
+- Fork this repo.
+- Make changes in a branch.
+- Make a pull request.
+
 
 ## See Also
 - [Nick Jones](https://www.nickmjones.me) (I made this 👋)
