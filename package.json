@@ -8,7 +8,7 @@
   "scripts": {
     "start": "parcel public/index.html --open --no-cache",
     "build": "parcel build public/index.html",
-    "deploy": "./deploy.sh"
+    "deploy": "yarn run build && netlify deploy --prod"
   },
   "dependencies": {
     "node-sass": "^4.12.0",
