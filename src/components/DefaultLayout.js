@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Routes from '../Routes'
+import Routes from '../components/Routes'
 
 class DefaultLayout extends Component {
   render() {

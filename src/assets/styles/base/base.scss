@@ -3,14 +3,3 @@
 @import './variables.scss';
 @import './type.scss';
 @import './layout.scss';
-
-html {
-  font-size: $base-font-size;
-}
-body {
-  color: #444;
-  font-family: 'Lato', Helvetica, Arial, sans-serif;
-}
-body * {
-  box-sizing: border-box;
-}
